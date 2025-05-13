@@ -1,0 +1,19 @@
+.lyrixContainer {
+  width: 80%;
+  height: 40vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: QuickSand;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  line-height: 5rem;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(236, 2, 147),
+    0 0 5px rgb(163, 0, 109);
+  color: white;
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 1rem;
+}

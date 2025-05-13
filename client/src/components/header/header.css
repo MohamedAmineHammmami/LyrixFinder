@@ -1,0 +1,13 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: cursive;
+}

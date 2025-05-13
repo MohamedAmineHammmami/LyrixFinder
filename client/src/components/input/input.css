@@ -1,0 +1,8 @@
+input {
+  width: 8vw;
+  height: 4.4vh;
+  border-radius: 1rem;
+  font-family: roboto;
+  font-size: 1.3rem;
+  text-align: center;
+}

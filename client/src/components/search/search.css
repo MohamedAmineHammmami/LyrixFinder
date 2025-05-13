@@ -1,0 +1,26 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+button {
+  width: 5vw;
+  height: 5vh;
+  background-color: rgb(184, 5, 88);
+  color: white;
+  font-family: roboto;
+  font-weight: bold;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+}
+
+button:hover {
+  scale: 1.1;
+  background-color: rgb(206, 9, 101);
+}
+
+.inputContainer {
+  display: flex;
+  gap: 0.5rem;
+}

@@ -1,0 +1,13 @@
+.animatedIcon {
+  background-color: rgb(206, 9, 101);
+  width: 15vw;
+  height: 20vh;
+  padding: 1rem 0 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.2rem 0.1rem whitesmoke;
+}
+
+h1 {
+  color: whitesmoke;
+  text-shadow: 0.2rem 0.2rem rgb(54, 54, 54);
+}
