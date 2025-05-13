@@ -1,18 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Search from "./components/search/Search";
 import Header from "./components/header/Header";
-import Lyrix from "./components/lyrix/Lyrix";
+import Lyrics from "./components/lyrics/Lyrics";
 
 function App() {
+  const [lyrics, setLyrics] = useState("");
   return (
-    <>
-      <div className="container">
-        <Header />
-        <Search />
-        <Lyrix />
-      </div>
-    </>
+    <div className="container">
+      <Header />
+      <Search {...{ setLyrics }} />
+      <Lyrics {...{ lyrics }} />
+    </div>
   );
 }
 

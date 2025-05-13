@@ -1,8 +1,8 @@
-.lyrixContainer {
+.lyricsContainer {
   width: 80%;
   height: 40vh;
+  overflow-y: auto;
   overflow-x: hidden;
-  overflow-y: scroll;
   font-family: QuickSand;
   font-size: 2rem;
   letter-spacing: 0.2rem;
@@ -11,6 +11,7 @@
     0 0 5px rgb(163, 0, 109);
   color: white;
   text-align: center;
+  margin: auto;
   margin-top: 3vh;
   margin-bottom: 3vh;
   background-color: transparent;
